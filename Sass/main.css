@@ -18,6 +18,7 @@
   border-color: #d8d8d8;
   background-color: #e6e6e6;
   width: 100%;
+  height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33,8 +34,18 @@
           justify-content: center;
 }
 
-.localisation__texte {
+.localisation__logo {
+  margin-left: 100px;
+}
+
+.localisation__recherche {
   margin-left: 15px;
+  border-radius: #d8d8d8;
+}
+
+.localisation__recherche input {
+  border: none;
+  background-color: #e6e6e6;
 }
 
 .explorer {
@@ -124,10 +135,6 @@
   left: 30px;
   font-size: 14px;
   font-weight: lighter;
-}
-
-.restaurants a {
-  text-decoration: none;
 }
 
 .restaurants h2 {

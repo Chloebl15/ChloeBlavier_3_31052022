@@ -21,15 +21,26 @@
     
     background-color: rgb(230, 230, 230);
     width: 100%;
+    height: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 
-    &__texte{
+    &__logo{
+        margin-left: 100px;
+    }
+    &__recherche{
         margin-left: 15px;
+        border-radius: rgb(216, 216, 216);
+
+        & input{
+            border: none;
+            background-color: rgb(230, 230, 230);
+        }
     }
 }
+
 
 .explorer{
     background-color: rgb(243, 243, 243);
