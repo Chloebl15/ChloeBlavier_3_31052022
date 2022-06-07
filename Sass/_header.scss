@@ -79,6 +79,8 @@
         margin-bottom: 25px;
     }
     &__container{
+        display: flex;
+        align-items: center;
         border: 1px solid rgb(243, 243, 243);
         border-radius: 20px;
         box-shadow: 0 0 8px rgb(207, 207, 207);
@@ -88,32 +90,37 @@
         margin-right: 25px;
         
         padding: 20px;
+        
+
+        &__numero{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            width: 5px;
+            height: 5px;
+            padding: 10px;
+            border-radius: 50%;
+            background-color: $primaire;
+            position: absolute;
+            left: 30px;
+            font-size: 14px;
+            font-weight: lighter;
+        }
+
+        &__logo{
+            margin-left: 15px;
+            color: gray;
+
+            &__texte{
+                margin-left: 20px;
+            }
+        }
     }
     &__container:hover{
         background-color: #ede6f5;
         opacity: 1;
-    }
-    &__logo{
-        margin-left: 15px;
-        color: gray;
-    }
-    &__texte{
-        margin-left: 20px;
-    }
+    } 
 
-    &__numero{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-        width: 5px;
-        height: 5px;
-        padding: 10px;
-        border-radius: 50%;
-        background-color: $primaire;
-        position: absolute;
-        left: 30px;
-        font-size: 14px;
-        font-weight: lighter;
-    }
+    
 }

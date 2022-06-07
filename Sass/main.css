@@ -91,6 +91,12 @@
 }
 
 .fonctionnement__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border: 1px solid #f3f3f3;
   border-radius: 20px;
   -webkit-box-shadow: 0 0 8px #cfcfcf;
@@ -101,21 +107,7 @@
   padding: 20px;
 }
 
-.fonctionnement__container:hover {
-  background-color: #ede6f5;
-  opacity: 1;
-}
-
-.fonctionnement__logo {
-  margin-left: 15px;
-  color: gray;
-}
-
-.fonctionnement__texte {
-  margin-left: 20px;
-}
-
-.fonctionnement__numero {
+.fonctionnement__container__numero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -135,6 +127,20 @@
   left: 30px;
   font-size: 14px;
   font-weight: lighter;
+}
+
+.fonctionnement__container__logo {
+  margin-left: 15px;
+  color: gray;
+}
+
+.fonctionnement__container__logo__texte {
+  margin-left: 20px;
+}
+
+.fonctionnement__container:hover {
+  background-color: #ede6f5;
+  opacity: 1;
 }
 
 .restaurants h2 {
