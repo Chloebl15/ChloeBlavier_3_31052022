@@ -1,8 +1,10 @@
-.logo{
+.header{
+    &__logo{
     text-align: center;
-    &__img{
-        width: 200px;
-    margin: 10px 10px ;
+        &__img{
+            width: 200px;
+            margin: 10px 10px ;
+        }
     }
 }
 
@@ -55,15 +57,6 @@
         background: linear-gradient(0deg, rgba(169,78,222,1) 16%, rgba(211,69,231,1) 66%, rgba(246,107,186,1) 100%);
     }
    
-}
-
-.fonctionnement ul{
-   list-style: none;
-}
-
-.fonctionnement a{
-    text-decoration: none;
-    color: black;
 }
 
 .fonctionnement{

@@ -1,8 +1,8 @@
-.logo {
+.header__logo {
   text-align: center;
 }
 
-.logo__img {
+.header__logo__img {
   width: 200px;
   margin: 10px 10px;
 }
@@ -66,15 +66,6 @@
   background: #a94ede;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(16%, #a94ede), color-stop(66%, #d345e7), to(#f66bba));
   background: linear-gradient(0deg, #a94ede 16%, #d345e7 66%, #f66bba 100%);
-}
-
-.fonctionnement ul {
-  list-style: none;
-}
-
-.fonctionnement a {
-  text-decoration: none;
-  color: black;
 }
 
 .fonctionnement {
@@ -212,13 +203,11 @@
 .footer__ul {
   font-family: 'Roboto' , sans-serif;
   font-size: 15px;
-  list-style: none;
   margin-left: -20px;
   margin-bottom: 20px;
 }
 
 .footer__a {
-  text-decoration: none;
   color: white;
 }
 
