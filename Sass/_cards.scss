@@ -1,0 +1,55 @@
+
+.restaurants a{
+    text-decoration: none;
+}
+
+.restaurants h2{
+    margin-left: 20px ;
+    padding-top: 40px;
+}
+
+.restaurants h3{
+    color: black;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.restaurants p{
+    color: black;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+
+.restaurants{
+    background-color: rgb(243, 243, 243);
+    font-family: 'Roboto' , sans-serif;
+    margin-top: 60px;
+    padding-bottom: 50px;
+
+    &__cards{
+        box-shadow: 0 0 5px rgb(134, 134, 134);
+        border-radius: 20px;
+        margin-bottom: 30px;
+        background-color: white;
+        height: 250px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    &__img{
+        height: 180px;
+        min-width: 100%;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+    }
+
+    &__btn{
+        position: relative;
+        bottom: 50px; left: 300px;
+        font-size: 30px;
+        color: black;
+        
+    }
+}
+

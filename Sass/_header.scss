@@ -1,6 +1,115 @@
-.header{
-    background-color:$color;
-      &__test{
-          background-color: black;
-      }
+.logo{
+    text-align: center;
+    &__img{
+        width: 200px;
+    margin: 10px 10px ;
+    }
+}
+
+.localisation{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: rgb(61, 61, 61);
+
+    border-top: 2px solid ;
+    box-shadow: inset 0 0px -4px 0 rgb(202, 202, 202);
+    
+    border-color: rgb(216, 216, 216);
+    
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    &__texte{
+        margin-left: 15px;
+    }
+}
+
+.explorer{
+    background-color: rgb(243, 243, 243);
+    margin-top: -25px;
+    min-height: 320px;
+    font-family: 'Roboto' , sans-serif;
+    text-align: center;
+    &__titre{
+        font-size: 30px;
+        font-weight: 900;
+        padding-top: 50px;        
+    }
+    &__soustitre{
+        font-size: 20px;
+        font-weight: lighter;
+        padding-bottom: 25px;
+    }
+    &__btn{
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 28px;
+        padding:16px 31px;
+        color: white;
+        background: rgb(169,78,222);
+        background: linear-gradient(0deg, rgba(169,78,222,1) 16%, rgba(211,69,231,1) 66%, rgba(246,107,186,1) 100%);
+    }
+   
+}
+
+.fonctionnement ul{
+   list-style: none;
+}
+
+.fonctionnement a{
+    text-decoration: none;
+    color: black;
+}
+
+.fonctionnement{
+    font-family: 'Roboto' , sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    &__titre{
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    &__container{
+        border: 1px solid rgb(243, 243, 243);
+        border-radius: 20px;
+        box-shadow: 0 0 8px rgb(207, 207, 207);
+
+        background-color: rgb(243, 243, 243);
+        margin-bottom: 25px;
+        margin-right: 25px;
+        
+        padding: 20px;
+    }
+    &__container:hover{
+        background-color: #ede6f5;
+        opacity: 1;
+    }
+    &__logo{
+        margin-left: 15px;
+        color: gray;
+    }
+    &__texte{
+        margin-left: 20px;
+    }
+
+    &__numero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        width: 5px;
+        height: 5px;
+        padding: 10px;
+        border-radius: 50%;
+        background-color: $primaire;
+        position: absolute;
+        left: 30px;
+        font-size: 14px;
+        font-weight: lighter;
+    }
 }
