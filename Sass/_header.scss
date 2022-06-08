@@ -14,8 +14,7 @@
     font-size: 22px;
     color: rgb(61, 61, 61);
 
-    border-top: 2px solid ;
-    box-shadow: inset 0 0px -4px 0 rgb(202, 202, 202);
+    box-shadow: inset 0px 14px 11px -15px #bbbab8;
     
     border-color: rgb(216, 216, 216);
     
@@ -74,14 +73,20 @@
     font-family: 'Roboto' , sans-serif;
     font-weight: bold;
     margin-top: 50px;
+
     &__titre{
         font-size: 20px;
         margin-bottom: 25px;
+
+        @media (min-width: 768px){
+            text-align: center;
+        }
+
     }
+
     &__container{
         display: flex;
         align-items: center;
-        border: 1px solid rgb(243, 243, 243);
         border-radius: 20px;
         box-shadow: 0 0 8px rgb(207, 207, 207);
 
@@ -90,6 +95,12 @@
         margin-right: 25px;
         
         padding: 20px;
+
+        @media (min-width: 768px) {
+            max-width: 300px;
+            margin: 0 auto;
+            margin-bottom: 15px;
+        }
         
 
         &__numero{
@@ -102,10 +113,13 @@
             padding: 10px;
             border-radius: 50%;
             background-color: $primaire;
-            position: absolute;
-            left: 30px;
-            font-size: 14px;
+            position: relative;
+            left: -30px;
+            font-size: 15px;
             font-weight: lighter;
+            @media (min-width: 768px) {
+            
+            }
         }
 
         &__logo{
