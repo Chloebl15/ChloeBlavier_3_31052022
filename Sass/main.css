@@ -146,6 +146,10 @@
   color: gray;
 }
 
+.fonctionnement__container__logo :hover {
+  color: #9356DC;
+}
+
 .fonctionnement__container__logo__texte {
   margin-left: 20px;
 }
