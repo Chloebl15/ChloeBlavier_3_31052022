@@ -184,6 +184,20 @@
   padding-bottom: 50px;
 }
 
+@media (min-width: 768px) {
+  .restaurants__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
 .restaurants__cards {
   -webkit-box-shadow: 0 0 5px #868686;
           box-shadow: 0 0 5px #868686;
@@ -193,6 +207,13 @@
   height: 250px;
   margin-left: 15px;
   margin-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .restaurants__cards {
+    width: 45%;
+    margin-right: 20px;
+  }
 }
 
 .restaurants__img {
@@ -209,6 +230,14 @@
   left: 300px;
   font-size: 30px;
   color: black;
+}
+
+@media (min-width: 768px) {
+  .restaurants h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: -15px;
+  }
 }
 
 .footer {
