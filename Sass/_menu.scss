@@ -1,0 +1,86 @@
+.header__image__img{
+    width: 100%;
+}
+
+.main{  
+
+    background-color: $gris;
+        border-radius: 40px 40px 0 0;
+        position: relative;
+        top: -70px;
+        
+        
+        width: 100%;
+       
+
+    &__container{
+        margin-left: 15px;
+    }
+    &__header{
+
+        h2{
+            font-family: 'shrikhand' , sans-serif;
+            padding-top: 35px;
+            
+        }
+    }
+}
+
+.menu{
+    font-family: 'Roboto' , sans-serif;
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: -38px;
+    
+   &__titre{
+    margin-bottom: 15px;
+   }
+   &__liste{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 15px;
+
+    justify-content: space-between;
+
+    h4{
+        width: 100%;
+        margin-left: 10px;
+        margin-top: 15px;
+        font-size: 18px;
+    
+        
+    }
+
+    p{
+        margin-top: -20px;
+        margin-left: 10px; 
+        font-size: 15px;
+    }
+
+    &__prix{
+        margin-right: 15px;
+        margin-top: -35px;
+        font-size: 15px;
+    }
+    }
+
+    &__btn{
+        
+        justify-content: center;
+        
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 28px;
+        padding:13px 45px;
+        color: white;
+        background: rgb(169,78,222);
+        background: linear-gradient(0deg, rgba(169,78,222,1) 16%, rgba(211,69,231,1) 66%, rgba(246,107,186,1) 100%);
+        
+    }
+}
+

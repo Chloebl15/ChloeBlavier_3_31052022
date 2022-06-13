@@ -42,7 +42,7 @@
 
 
 .explorer{
-    background-color: rgb(243, 243, 243);
+    background-color: $gris;
     margin-top: -25px;
     min-height: 320px;
     font-family: 'Roboto' , sans-serif;
@@ -90,7 +90,7 @@
         border-radius: 20px;
         box-shadow: 0 0 8px rgb(207, 207, 207);
 
-        background-color: rgb(243, 243, 243);
+        background-color: $gris;
         margin-bottom: 25px;
         margin-right: 25px;
         
@@ -117,9 +117,7 @@
             left: -30px;
             font-size: 15px;
             font-weight: lighter;
-            @media (min-width: 768px) {
             
-            }
         }
 
         &__logo{

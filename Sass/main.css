@@ -295,4 +295,94 @@
 .fa-solid {
   margin-right: 5px;
 }
+
+.header__image__img {
+  width: 100%;
+}
+
+.main {
+  background-color: #f3f3f3;
+  border-radius: 40px 40px 0 0;
+  position: relative;
+  top: -70px;
+  width: 100%;
+}
+
+.main__container {
+  margin-left: 15px;
+}
+
+.main__header h2 {
+  font-family: 'shrikhand' , sans-serif;
+  padding-top: 35px;
+}
+
+.menu {
+  font-family: 'Roboto' , sans-serif;
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: -38px;
+}
+
+.menu__titre {
+  margin-bottom: 15px;
+}
+
+.menu__liste {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu__liste h4 {
+  width: 100%;
+  margin-left: 10px;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.menu__liste p {
+  margin-top: -20px;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.menu__liste__prix {
+  margin-right: 15px;
+  margin-top: -35px;
+  font-size: 15px;
+}
+
+.menu__btn {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 28px;
+  padding: 13px 45px;
+  color: white;
+  background: #a94ede;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(16%, #a94ede), color-stop(66%, #d345e7), to(#f66bba));
+  background: linear-gradient(0deg, #a94ede 16%, #d345e7 66%, #f66bba 100%);
+}
 /*# sourceMappingURL=main.css.map */
