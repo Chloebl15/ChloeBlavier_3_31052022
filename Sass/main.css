@@ -212,7 +212,20 @@
 @media (min-width: 768px) {
   .restaurants__cards {
     width: 45%;
-    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .restaurants__cards {
+    margin-left: 60px;
+    width: 40%;
+  }
+}
+
+@media (min-width: 1445px) {
+  .restaurants__cards {
+    margin-left: 90px;
   }
 }
 
@@ -249,6 +262,12 @@
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #353333;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    text-align: center;
+  }
 }
 
 .footer__logo {

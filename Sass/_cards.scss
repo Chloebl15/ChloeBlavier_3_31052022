@@ -45,7 +45,18 @@
 
         @media (min-width: 768px) {
             width: 45%;
-            margin-right: 20px;
+            margin-left: 20px;
+            
+        }
+
+        @media (min-width: 992px) {
+            margin-left: 60px;
+            width: 40%;
+        }
+
+        @media (min-width: 1445px) {
+            margin-left: 90px;
+            
         }
     }
 

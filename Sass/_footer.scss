@@ -2,6 +2,11 @@
     display: flex;
     flex-direction: column;
     background-color: rgb(53, 51, 51);
+
+    @media (min-width: 768px) {
+        text-align: center;
+    }
+
     &__logo{
         margin-left: 20px;
         padding-top: 15px;
