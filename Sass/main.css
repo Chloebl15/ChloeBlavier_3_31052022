@@ -302,7 +302,6 @@
 
 .main {
   background-color: #f3f3f3;
-  border-radius: 40px 40px 0 0;
   position: relative;
   top: -70px;
   width: 100%;
@@ -312,9 +311,31 @@
   margin-left: 15px;
 }
 
+.main__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .main__header h2 {
   font-family: 'shrikhand' , sans-serif;
   padding-top: 35px;
+  font-size: 26px;
+}
+
+.main__header__heart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 35px;
+  margin-right: 35px;
+  font-size: 25px;
 }
 
 .menu {
@@ -373,9 +394,6 @@
 }
 
 .menu__btn {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   text-decoration: none;
   cursor: pointer;
   border-radius: 28px;
