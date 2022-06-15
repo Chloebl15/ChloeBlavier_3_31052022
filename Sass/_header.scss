@@ -58,6 +58,7 @@
         padding-bottom: 25px;
     }
     &__btn{
+        border: none;
         text-decoration: none;
         cursor: pointer;
         border-radius: 28px;
@@ -136,5 +137,8 @@
         opacity: 1;
     } 
 
+    &__container:hover .fa-mobile-screen-button{
+        background-color: black;
+    }
     
 }

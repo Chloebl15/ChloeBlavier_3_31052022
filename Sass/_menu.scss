@@ -1,18 +1,21 @@
 .header__image__img{
     width: 100%;
+    max-height: 350px;
+    object-fit: cover;
 }
 
 .main{  
-
     background-color: $gris;
+
     position: relative;
-    top: -70px;  
-    
+    top: -50px;  
+    padding-bottom: 70px;
     width: 100%;
-       
+    border-radius: 30px 30px 0 0;
+    
 
     &__container{
-        margin-left: 15px;
+        margin: 0 15px;
     }
     &__header{
 
@@ -36,62 +39,65 @@
     }
 }
 
-
-.menu{
+.titres{
+    font-size: 16px;
     font-family: 'Roboto' , sans-serif;
-    width: 95%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin-left: -38px;
-    
-   &__titre{
     margin-bottom: 15px;
-   }
-   &__liste{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+}
+
+    .menu{
+    
+    font-family: 'Roboto' , sans-serif;
     background-color: white;
     border-radius: 20px;
+    width: 100%;
+    height: 65px;
+
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
     margin-bottom: 15px;
 
-    justify-content: space-between;
+    &__col1{
+        flex-grow: 1;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        &__texte{
+            margin-left: 10px;
+            margin-top: -10px;
+            font-size: 15px;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            display: block;
+            overflow: hidden;
 
-    
-
-
-    h4{
-        width: 100%;
-        margin-left: 10px;
-        margin-top: 15px;
-        font-size: 18px;
-    
-        
+        }
     }
 
-    p{
-        margin-top: -20px;
-        margin-left: 10px; 
-        font-size: 15px;
-    }
-
-    &__prix{
-        margin-right: 15px;
-        margin-top: -35px;
-        font-size: 15px;
-    }
+    &__col2{
+        min-width: 50px;
+        margin-top: 33px;
+        text-align: end;
+        margin-right: 20px;
     }
 
     &__btn{
-        text-decoration: none;
-        cursor: pointer;
-        border-radius: 28px;
-        padding:13px 45px;
-        color: white;
-        background: rgb(169,78,222);
-        background: linear-gradient(0deg, rgba(169,78,222,1) 16%, rgba(211,69,231,1) 66%, rgba(246,107,186,1) 100%);
-        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        &__button{
+            border: none;
+            text-decoration: none;
+            cursor: pointer;
+            border-radius: 28px;
+            padding:13px 45px;
+            color: white;
+            background: rgb(169,78,222);
+            background: linear-gradient(0deg, rgba(169,78,222,1) 16%, rgba(211,69,231,1) 66%, rgba(246,107,186,1) 100%);
+            
+        }
     }
 }
 

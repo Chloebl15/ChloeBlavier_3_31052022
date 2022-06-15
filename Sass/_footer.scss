@@ -3,6 +3,9 @@
     flex-direction: column;
     background-color: rgb(53, 51, 51);
 
+    &__padding{
+        margin-top: -50px;
+    }
     @media (min-width: 768px) {
         text-align: center;
     }
