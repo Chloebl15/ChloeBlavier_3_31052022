@@ -57,18 +57,10 @@
         margin-right: 15px;
 
         @media (min-width: 768px) {
-            width: 45%;
-            margin-left: 20px;
-            
-        }
+           
+            width: calc(50% - 80px);
 
-        @media (min-width: 992px) {
-            margin-left: 60px;
-            width: 40%;
-        }
-
-        @media (min-width: 1445px) {
-            margin-left: 90px;
+            margin: 20px 40px;
             
         }
     }
@@ -89,4 +81,3 @@
          }
     }
 }
-
