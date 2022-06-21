@@ -57,7 +57,6 @@
 
 .explorer__titre {
   font-size: 30px;
-  font-weight: 900;
   padding-top: 50px;
 }
 
@@ -146,21 +145,17 @@
   color: gray;
 }
 
-.fonctionnement__container__logo :hover {
-  color: #9356DC;
-}
-
 .fonctionnement__container__logo__texte {
   margin-left: 20px;
 }
 
-.fonctionnement__container:hover {
+.fonctionnement__container__container:hover {
   background-color: #ede6f5;
   opacity: 1;
 }
 
-.fonctionnement__container:hover .fa-solid {
-  background-color: #ede6f5;
+.fonctionnement__container__container:hover .fonctionnement__container__logo {
+  color: #9356DC;
 }
 
 .restaurants h2 {

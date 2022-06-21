@@ -50,7 +50,6 @@
     text-align: center;
     &__titre{
         font-size: 30px;
-        font-weight: 900;
         padding-top: 50px;        
     }
     &__soustitre{
@@ -124,21 +123,19 @@
 
         &__logo{
             color: gray;
-            :hover{
-                color: $primaire;
-            }
             &__texte{
                 margin-left: 20px;
             }
         }
-    }
-    &__container:hover{
-        background-color: #ede6f5;
-        opacity: 1;
-    } 
-
-    &__container:hover .fa-solid{
-        background-color: #ede6f5;
-    }
+        &__container:hover{
+            background-color: #ede6f5;
+            opacity: 1;
+        } 
     
+        &__container:hover .fonctionnement__container__logo{
+           color: $primaire;
+    
+        }
+    
+}
 }
