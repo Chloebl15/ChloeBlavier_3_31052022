@@ -66,6 +66,13 @@
         color: white;
         background: rgb(169,78,222);
         background: linear-gradient(0deg, rgba(169,78,222,1) 16%, rgba(211,69,231,1) 66%, rgba(246,107,186,1) 100%);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        transition: all 400ms;
+
+        &:hover{
+            opacity: 0.9;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
     }
    
 }
@@ -97,6 +104,8 @@
         
         padding: 20px;
 
+        transition: all 400ms;
+
         @media (min-width: 768px) {
             max-width: 300px;
             margin: 0 auto;
@@ -127,15 +136,15 @@
                 margin-left: 20px;
             }
         }
-        &__container:hover{
+        
+        &:hover{
             background-color: #ede6f5;
             opacity: 1;
         } 
     
-        &__container:hover .fonctionnement__container__logo{
+        &:hover .fonctionnement__container__logo{
            color: $primaire;
     
         }
-    
 }
 }

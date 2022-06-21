@@ -76,6 +76,16 @@
   background: #a94ede;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(16%, #a94ede), color-stop(66%, #d345e7), to(#f66bba));
   background: linear-gradient(0deg, #a94ede 16%, #d345e7 66%, #f66bba 100%);
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+}
+
+.explorer__btn:hover {
+  opacity: 0.9;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .fonctionnement {
@@ -109,6 +119,8 @@
   margin-bottom: 25px;
   margin-right: 25px;
   padding: 20px;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
 }
 
 @media (min-width: 768px) {
@@ -149,12 +161,12 @@
   margin-left: 20px;
 }
 
-.fonctionnement__container__container:hover {
+.fonctionnement__container:hover {
   background-color: #ede6f5;
   opacity: 1;
 }
 
-.fonctionnement__container__container:hover .fonctionnement__container__logo {
+.fonctionnement__container:hover .fonctionnement__container__logo {
   color: #9356DC;
 }
 
@@ -204,10 +216,12 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 .restaurants__title__btn {
-  margin-right: 30px;
+  width: 100px;
   margin-top: 10px;
   font-size: 30px;
   color: black;
@@ -245,6 +259,15 @@
     text-align: center;
     margin-top: -15px;
   }
+}
+
+.tag {
+  position: absolute;
+  top: 1px;
+  background-color: #a9e0d1;
+  color: green;
+  font-weight: bold;
+  padding: 8px;
 }
 
 .footer {
@@ -399,6 +422,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-weight: r;
+  font-family: 'Roboto' , sans-serif;
 }
 
 .menu__btn__button {
@@ -412,5 +437,15 @@
   background: #a94ede;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(16%, #a94ede), color-stop(66%, #d345e7), to(#f66bba));
   background: linear-gradient(0deg, #a94ede 16%, #d345e7 66%, #f66bba 100%);
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  -webkit-transition: all 400ms;
+  transition: all 400ms;
+}
+
+.menu__btn__button:hover {
+  opacity: 0.9;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 /*# sourceMappingURL=main.css.map */
