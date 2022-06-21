@@ -27,15 +27,16 @@
     justify-content: center;
 
     &__logo{
-        margin-left: 100px;
+        margin-right: 10px;
     }
     &__recherche{
-        margin-left: 15px;
+        
         border-radius: rgb(216, 216, 216);
 
         & input{
             border: none;
             background-color: rgb(230, 230, 230);
+            max-width: 150px;
         }
     }
 }
@@ -122,7 +123,6 @@
         }
 
         &__logo{
-            margin-left: 15px;
             color: gray;
             :hover{
                 color: $primaire;
@@ -137,7 +137,7 @@
         opacity: 1;
     } 
 
-    &__container:hover .fa-mobile-screen-button{
+    &__container:hover .fa-solid{
         background-color: #ede6f5;
     }
     

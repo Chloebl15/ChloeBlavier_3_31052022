@@ -34,17 +34,17 @@
 }
 
 .localisation__logo {
-  margin-left: 100px;
+  margin-right: 10px;
 }
 
 .localisation__recherche {
-  margin-left: 15px;
   border-radius: #d8d8d8;
 }
 
 .localisation__recherche input {
   border: none;
   background-color: #e6e6e6;
+  max-width: 150px;
 }
 
 .explorer {
@@ -143,7 +143,6 @@
 }
 
 .fonctionnement__container__logo {
-  margin-left: 15px;
   color: gray;
 }
 
@@ -160,7 +159,7 @@
   opacity: 1;
 }
 
-.fonctionnement__container:hover .fa-mobile-screen-button {
+.fonctionnement__container:hover .fa-solid {
   background-color: #ede6f5;
 }
 
@@ -213,7 +212,7 @@
 }
 
 .restaurants__title__btn {
-  margin-right: 40px;
+  margin-right: 30px;
   margin-top: 10px;
   font-size: 30px;
   color: black;
