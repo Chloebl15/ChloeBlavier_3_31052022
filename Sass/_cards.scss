@@ -92,3 +92,24 @@
 
 }
 
+.heart1{
+    position: relative;
+    cursor: pointer;
+    transition: all 400ms;
+    
+
+    &:hover{
+        
+    }
+}
+
+.heart2{
+    color: green;
+    position: absolute;
+    bottom:20px;
+    cursor: pointer;
+
+    &:hover{
+        
+    }
+}
