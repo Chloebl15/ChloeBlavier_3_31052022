@@ -86,7 +86,13 @@
         margin-right: 20px;
     }
 
+    &__col3{
+        width: 0%;
 
+        &:hover{
+            transition: margin-left 2s;
+        }
+    }
 
     
     &__btn{

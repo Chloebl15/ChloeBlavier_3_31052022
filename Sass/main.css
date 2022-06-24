@@ -467,6 +467,15 @@
   margin-right: 20px;
 }
 
+.menu__col3 {
+  width: 0%;
+}
+
+.menu__col3:hover {
+  -webkit-transition: margin-left 2s;
+  transition: margin-left 2s;
+}
+
 .menu__btn {
   display: -webkit-box;
   display: -ms-flexbox;
