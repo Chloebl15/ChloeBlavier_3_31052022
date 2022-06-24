@@ -13,12 +13,15 @@
         left: 20px;
         font-size: 22px;
         cursor: pointer;
-        transition: opacity .3s;
+        &__fleche{
+            transition: all 300ms;
+        }
         :hover{
             opacity: 0.5;
         }
     }
 }
+
 
 .localisation{
     font-family: 'Roboto', sans-serif;
