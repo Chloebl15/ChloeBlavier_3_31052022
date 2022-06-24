@@ -1,7 +1,6 @@
 .header{
     &__logo{
     text-align: center;
-    position: relative;
         &__img{
             width: 200px;
             margin: 10px 10px ;
@@ -14,6 +13,10 @@
         left: 20px;
         font-size: 22px;
         cursor: pointer;
+        transition: opacity .3s;
+        :hover{
+            opacity: 0.5;
+        }
     }
 }
 
@@ -102,6 +105,7 @@
     }
 
     &__container{
+
         display: flex;
         align-items: center;
         border-radius: 20px;

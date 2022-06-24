@@ -1,6 +1,5 @@
 .header__logo {
   text-align: center;
-  position: relative;
 }
 
 .header__logo__img {
@@ -14,6 +13,12 @@
   left: 20px;
   font-size: 22px;
   cursor: pointer;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
+}
+
+.header__back :hover {
+  opacity: 0.5;
 }
 
 .localisation {
@@ -336,6 +341,10 @@
 
 .footer__li {
   margin-bottom: 5px;
+}
+
+.footer__li :hover {
+  color: #aaaaaa;
 }
 
 .fa-solid {

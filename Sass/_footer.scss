@@ -28,6 +28,10 @@
 
     &__li{
         margin-bottom: 5px;
+
+        :hover{
+            color: rgb(170, 170, 170);
+        }
     }
 }
 
