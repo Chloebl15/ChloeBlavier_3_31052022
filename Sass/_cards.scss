@@ -99,8 +99,15 @@
 }
 
 .heart2{
-    color: green;
+    opacity: 0;
+    color: $primaire;
     position: absolute;
-    bottom:20px;
+    transform: translateY(-100%);
     cursor: pointer;
+    transition: all 800ms;
+
+}
+
+.heart2:hover{
+    opacity: 1;
 }

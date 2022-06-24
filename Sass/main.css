@@ -21,7 +21,7 @@
 }
 
 .header__back :hover {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .localisation {
@@ -297,10 +297,18 @@
 }
 
 .heart2 {
-  color: green;
+  opacity: 0;
+  color: #9356DC;
   position: absolute;
-  bottom: 20px;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
   cursor: pointer;
+  -webkit-transition: all 800ms;
+  transition: all 800ms;
+}
+
+.heart2:hover {
+  opacity: 1;
 }
 
 .footer {
