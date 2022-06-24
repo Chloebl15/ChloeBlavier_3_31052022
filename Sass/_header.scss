@@ -80,7 +80,7 @@
         padding:16px 31px;
         color: white;
         background: rgb(169,78,222);
-        background: linear-gradient(0deg, rgba(169,78,222,1) 16%, rgba(211,69,231,1) 66%, rgba(246,107,186,1) 100%);
+        background: linear-gradient(to top, $primaire, $secondaire);
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         transition: all 400ms;
 

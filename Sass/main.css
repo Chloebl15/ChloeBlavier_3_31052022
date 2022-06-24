@@ -91,8 +91,8 @@
   padding: 16px 31px;
   color: white;
   background: #a94ede;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(16%, #a94ede), color-stop(66%, #d345e7), to(#f66bba));
-  background: linear-gradient(0deg, #a94ede 16%, #d345e7 66%, #f66bba 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
+  background: linear-gradient(to top, #9356DC, #FF79DA);
   -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
           box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   -webkit-transition: all 400ms;
@@ -298,7 +298,7 @@
 
 .heart2 {
   opacity: 0;
-  color: #9356DC;
+  color: linear-gradient(blue, red);
   position: absolute;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
@@ -482,9 +482,8 @@
   border-radius: 28px;
   padding: 13px 45px;
   color: white;
-  background: #a94ede;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(16%, #a94ede), color-stop(66%, #d345e7), to(#f66bba));
-  background: linear-gradient(0deg, #a94ede 16%, #d345e7 66%, #f66bba 100%);
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
+  background: linear-gradient(to top, #9356DC, #FF79DA);
   -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
           box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   -webkit-transition: all 400ms;
