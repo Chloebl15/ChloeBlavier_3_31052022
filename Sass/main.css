@@ -1,3 +1,33 @@
+@-webkit-keyframes rotation {
+  0% {
+    -webkit-transform: rotate3d(0, 1, 0, 0deg);
+            transform: rotate3d(0, 1, 0, 0deg);
+  }
+  50% {
+    -webkit-transform: rotate3d(0, 1, 0, 180deg);
+            transform: rotate3d(0, 1, 0, 180deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 1, 0, 360deg);
+            transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
+
+@keyframes rotation {
+  0% {
+    -webkit-transform: rotate3d(0, 1, 0, 0deg);
+            transform: rotate3d(0, 1, 0, 0deg);
+  }
+  50% {
+    -webkit-transform: rotate3d(0, 1, 0, 180deg);
+            transform: rotate3d(0, 1, 0, 180deg);
+  }
+  100% {
+    -webkit-transform: rotate3d(0, 1, 0, 360deg);
+            transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
+
 .header__logo {
   text-align: center;
 }
@@ -292,8 +322,6 @@
 .heart1 {
   position: relative;
   cursor: pointer;
-  -webkit-transition: all 400ms;
-  transition: all 400ms;
 }
 
 .heart2 {
@@ -468,12 +496,40 @@
 }
 
 .menu__col3 {
-  width: 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #99E2D0;
+  color: white;
+  font-size: 20px;
+  height: 100%;
+  width: 15%;
+  margin-right: -60px;
+  cursor: pointer;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
-.menu__col3:hover {
-  -webkit-transition: margin-left 2s;
-  transition: margin-left 2s;
+.menu:hover .menu__col3 {
+  margin-right: 0px;
+}
+
+.menu__icone {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-transition-duration: 900ms;
+          transition-duration: 900ms;
+}
+
+.menu:hover .menu__icone {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
 }
 
 .menu__btn {
