@@ -43,6 +43,10 @@
     margin-bottom: 15px;
     position: relative;
     
+    @media (min-width: 768px) {
+        width: 100%;
+        
+    }
 }
 
     .menu{
@@ -53,6 +57,10 @@
     width: 100%;
     height: 65px;
     
+    @media (min-width: 768px) {
+        
+        
+    }
 
     display: flex;
     flex-direction: row;
@@ -146,3 +154,16 @@
     top: 22px;
 }
 
+.bloc{
+    @media (min-width: 768px) {
+       display: flex;
+       flex-wrap: wrap;
+    }
+
+   &__container{
+    @media (min-width:768px){
+        width: calc(50% - 20px);
+        margin-right: 20px;
+    }
+   }
+}

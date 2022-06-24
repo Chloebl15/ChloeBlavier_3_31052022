@@ -34,6 +34,11 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: nowrap;
+
+        @media (min-width: 768px) {
+           width: 100%;
+            
+        }
     
     
         &__btn{
@@ -57,9 +62,7 @@
 
         @media (min-width: 768px) {
            
-            width: calc(50% - 80px);
-
-            margin: 20px 40px;
+            
             
         }
     }
@@ -113,3 +116,10 @@
     opacity: 1;
 }
 
+.bloc{
+    @media (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        
+    }
+}
