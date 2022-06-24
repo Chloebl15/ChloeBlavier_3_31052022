@@ -237,12 +237,6 @@
       flex-wrap: nowrap;
 }
 
-@media (min-width: 768px) {
-  .restaurants__title {
-    width: 100%;
-  }
-}
-
 .restaurants__title__btn {
   width: 100px;
   margin-top: 10px;
@@ -260,6 +254,13 @@
   margin-left: 15px;
   margin-right: 15px;
   position: relative;
+}
+
+@media (min-width: 768px) {
+  .restaurants__cards {
+    width: calc(50% - 80px);
+    margin: 20px 40px;
+  }
 }
 
 .restaurants__img {
@@ -310,18 +311,6 @@
 
 .heart2:hover {
   opacity: 1;
-}
-
-@media (min-width: 768px) {
-  .bloc {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
 }
 
 .footer {
