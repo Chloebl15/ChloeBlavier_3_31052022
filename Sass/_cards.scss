@@ -105,7 +105,9 @@
     transform: translateY(-100%);
     cursor: pointer;
     transition: all 800ms;
-
+    background: linear-gradient(to top, $primaire, $secondaire);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .heart2:hover{
