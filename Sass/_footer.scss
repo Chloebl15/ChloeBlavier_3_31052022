@@ -24,13 +24,14 @@
     }
     &__a{
         color: white;
+        transition: all 300ms;
     }
 
     &__li{
         margin-bottom: 5px;
 
         :hover{
-            color: rgb(170, 170, 170);
+            opacity: 0.5;
         }
     }
 }
@@ -38,4 +39,3 @@
 .fa-solid{
     margin-right: 5px;
 }
-

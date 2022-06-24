@@ -340,6 +340,8 @@
 
 .footer__a {
   color: white;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
 }
 
 .footer__li {
@@ -347,7 +349,7 @@
 }
 
 .footer__li :hover {
-  color: #aaaaaa;
+  opacity: 0.5;
 }
 
 .fa-solid {
