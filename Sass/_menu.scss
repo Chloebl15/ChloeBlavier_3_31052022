@@ -24,18 +24,43 @@
             font-family: 'shrikhand' , sans-serif;
             padding-top: 35px;
             font-size: 26px;
+            @media (min-width: 768px) {
+                
+                
+            }
+
             
         }
 
-        &__heart{
+        &__btn{
             display: flex;
             align-items: center;
             margin-top: 35px;
-            margin-right: 35px;
             font-size: 25px;
+            cursor: pointer;
+
+            &__heart1{
+                position: relative;
+            }
+
+            &__heart2{
+                position: absolute;
+                opacity: 0;
+                transition: all 800ms;
+                background: linear-gradient(to top, #9356DC, #FF79DA);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+
+                &:hover{
+                    opacity: 1;
+                }
+            }
+
         }
+        
     }
 }
+
 
 .titres{
     font-size: 16px;
@@ -102,7 +127,6 @@
         width: 0;
         cursor: pointer;
         transition: all 1s;
-        overflow: hidden;
     }
 
     &:hover &__col3{

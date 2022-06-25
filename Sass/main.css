@@ -296,7 +296,6 @@
 
 .heart2 {
   opacity: 0;
-  color: linear-gradient(blue, red);
   position: absolute;
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
@@ -401,7 +400,7 @@
   font-size: 26px;
 }
 
-.main__header__heart {
+.main__header__btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -409,8 +408,27 @@
       -ms-flex-align: center;
           align-items: center;
   margin-top: 35px;
-  margin-right: 35px;
   font-size: 25px;
+  cursor: pointer;
+}
+
+.main__header__btn__heart1 {
+  position: relative;
+}
+
+.main__header__btn__heart2 {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all 800ms;
+  transition: all 800ms;
+  background: -webkit-gradient(linear, left bottom, left top, from(#9356DC), to(#FF79DA));
+  background: linear-gradient(to top, #9356DC, #FF79DA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main__header__btn__heart2:hover {
+  opacity: 1;
 }
 
 .titres {
@@ -489,7 +507,6 @@
   cursor: pointer;
   -webkit-transition: all 1s;
   transition: all 1s;
-  overflow: hidden;
 }
 
 .menu:hover .menu__col3 {
