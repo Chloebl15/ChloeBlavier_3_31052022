@@ -635,8 +635,6 @@
   -webkit-animation-delay: 400ms;
           animation-delay: 400ms;
   opacity: 0;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
 }
 
 .menu-anim2 {
@@ -645,8 +643,6 @@
   -webkit-animation-delay: 600ms;
           animation-delay: 600ms;
   opacity: 0;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
 }
 
 .menu-anim3 {
@@ -655,7 +651,5 @@
   -webkit-animation-delay: 800ms;
           animation-delay: 800ms;
   opacity: 0;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
 }
 /*# sourceMappingURL=main.css.map */
