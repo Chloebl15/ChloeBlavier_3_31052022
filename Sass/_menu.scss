@@ -133,13 +133,8 @@
         width: 15%;
     }
 
-    &__icone{
-        transform: rotate(360deg);
-        transition-duration: 900ms;
-    }
-
     &:hover &__icone{
-        transform: rotate(0deg);
+       animation: animation 800ms; ;
     }
 
     &__btn{
