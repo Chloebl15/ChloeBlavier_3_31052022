@@ -81,7 +81,9 @@
     box-shadow: 0 0 5px rgb(206, 206, 206);
     width: 100%;
     height: 65px;
-    
+    animation: itemAppear 800ms;
+    animation-timing-function: cubic-bezier(.5,1.58,.34,.82);
+
     @media (min-width: 768px) {
         
         

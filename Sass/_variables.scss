@@ -3,3 +3,12 @@ $secondaire:#FF79DA ;
 $tertiaire:#99E2D0;
 $gris:rgb(243, 243, 243);
 $gradient:linear-gradient(blue,red);
+
+@keyframes itemAppear {
+    0% {
+      transform: scale(0)
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
