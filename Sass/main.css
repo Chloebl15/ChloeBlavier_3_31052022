@@ -72,6 +72,9 @@
   0% {
     opacity: 1;
   }
+  95% {
+    opacity: 1;
+  }
   100% {
     opacity: 0;
   }
@@ -79,6 +82,9 @@
 
 @keyframes itemappear2 {
   0% {
+    opacity: 1;
+  }
+  95% {
     opacity: 1;
   }
   100% {
@@ -103,8 +109,8 @@
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 40px;
-  -webkit-animation: itemappear2 5s;
-          animation: itemappear2 5s;
+  -webkit-animation: itemappear2 2s;
+          animation: itemappear2 2s;
 }
 
 .loader__spin {
