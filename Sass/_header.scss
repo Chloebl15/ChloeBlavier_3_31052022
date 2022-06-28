@@ -1,3 +1,28 @@
+.loader{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    min-height: 100%;
+    z-index: 1;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    animation: itemappear2 5s;
+
+    &__spin{
+        border: 5px solid #f3f3f3;
+        border-left: $primaire 5px solid;
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: spin 2s linear infinite;
+    }
+}
+
+
+
 .header{
     &__logo{
     text-align: center;
