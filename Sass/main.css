@@ -609,7 +609,6 @@
   font-size: 15px;
   white-space: nowrap;
   text-overflow: ellipsis;
-  display: block;
   overflow: hidden;
 }
 
@@ -633,15 +632,18 @@
   background-color: #99E2D0;
   color: white;
   font-size: 20px;
-  height: 100%;
   width: 0;
   cursor: pointer;
   -webkit-transition: all 1s;
   transition: all 1s;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
 }
 
 .menu:hover .menu__col3 {
-  width: 15%;
+  -ms-flex-preferred-size: 100px;
+      flex-basis: 100px;
+  max-width: 100px;
 }
 
 .menu:hover .menu__icone {

@@ -98,7 +98,6 @@
             font-size: 15px;
             white-space: nowrap;
             text-overflow: ellipsis;
-            display: block;
             overflow: hidden;
 
         }
@@ -118,18 +117,20 @@
         background-color: $tertiaire;
         color: white;
         font-size: 20px;
-        height: 100%;
         width: 0;
         cursor: pointer;
         transition: all 1s;
+        flex-basis: 0;
     }
 
     &:hover &__col3{
-        width: 15%;
+        flex-basis: 100px;
+        max-width: 100px;
+
     }
 
     &:hover &__icone{
-       animation: animation 800ms; ;
+       animation: animation 800ms ;
     }
 
     &__btn{
