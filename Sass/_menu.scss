@@ -105,6 +105,7 @@
 
     &__col2{
         min-width: 100px;
+        flex-basis: 100px;
         margin-top: 33px;
         text-align: end;
         margin-right: 20px;
@@ -121,11 +122,13 @@
         cursor: pointer;
         transition: all 1s;
         flex-basis: 0;
+        min-width: 0;
     }
 
     &:hover &__col3{
         flex-basis: 100px;
-        max-width: 100px;
+        max-width: 300px;
+        min-width: 100px;
 
     }
 
@@ -136,7 +139,6 @@
     &__btn{
         display: flex;
         justify-content: center;
-        font-weight: r;
         font-family: 'Roboto' , sans-serif;
         
         &__button{
@@ -191,7 +193,7 @@
 
 .menu-anim2{
     animation: itemAppear 800ms forwards;
-    animation-delay: 600ms forward;
+    animation-delay: 600ms;
     opacity: 0;
 }
 
