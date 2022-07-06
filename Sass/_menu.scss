@@ -87,6 +87,11 @@
     overflow: hidden;
     margin-bottom: 15px;
 
+    @media (min-width: 768px) {
+        width: 50%;
+        
+    }
+
     &__col1{
         flex-grow: 1;
         overflow: hidden;
