@@ -87,10 +87,7 @@
     overflow: hidden;
     margin-bottom: 15px;
 
-    @media (min-width: 768px) {
-        width: 50%;
-        
-    }
+  
 
     &__col1{
         flex-grow: 1;
@@ -191,19 +188,25 @@
 }
 
 .menu-anim1{
-    animation: itemAppear 800ms forwards;
+    animation: itemAppear 1000ms forwards;
     animation-delay: 400ms;
     opacity: 0;
 }
 
 .menu-anim2{
-    animation: itemAppear 800ms forwards;
+    animation: itemAppear 1000ms forwards;
     animation-delay: 600ms;
     opacity: 0;
 }
 
 .menu-anim3{
-    animation: itemAppear 800ms forwards;
+    animation: itemAppear 1000ms forwards;
     animation-delay: 800ms;
+    opacity: 0;
+}
+
+.menu-anim4{
+    animation: itemAppear 1000ms forwards;
+    animation-delay: 1000ms;
     opacity: 0;
 }

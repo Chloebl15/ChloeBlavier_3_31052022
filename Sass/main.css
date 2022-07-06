@@ -713,26 +713,34 @@
 }
 
 .menu-anim1 {
-  -webkit-animation: itemAppear 800ms forwards;
-          animation: itemAppear 800ms forwards;
+  -webkit-animation: itemAppear 1000ms forwards;
+          animation: itemAppear 1000ms forwards;
   -webkit-animation-delay: 400ms;
           animation-delay: 400ms;
   opacity: 0;
 }
 
 .menu-anim2 {
-  -webkit-animation: itemAppear 800ms forwards;
-          animation: itemAppear 800ms forwards;
+  -webkit-animation: itemAppear 1000ms forwards;
+          animation: itemAppear 1000ms forwards;
   -webkit-animation-delay: 600ms;
           animation-delay: 600ms;
   opacity: 0;
 }
 
 .menu-anim3 {
-  -webkit-animation: itemAppear 800ms forwards;
-          animation: itemAppear 800ms forwards;
+  -webkit-animation: itemAppear 1000ms forwards;
+          animation: itemAppear 1000ms forwards;
   -webkit-animation-delay: 800ms;
           animation-delay: 800ms;
+  opacity: 0;
+}
+
+.menu-anim4 {
+  -webkit-animation: itemAppear 1000ms forwards;
+          animation: itemAppear 1000ms forwards;
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
   opacity: 0;
 }
 /*# sourceMappingURL=main.css.map */
